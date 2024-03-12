@@ -1,6 +1,6 @@
 function Courses() {
     return (<h1>
-        Courses
+        George's Courses
     </h1>)
 };
 export default Courses;

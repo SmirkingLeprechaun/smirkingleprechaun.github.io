@@ -1,6 +1,6 @@
 function Jobs() {
     return (<h1>
-        Jobs
+        George's Jobs
     </h1>)
 };
 export default Jobs;

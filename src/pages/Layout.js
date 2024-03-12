@@ -1,4 +1,6 @@
 import "../../src/App.css";
+import { Link } from "react-router-dom";
+
 function Layout() {
     return (
 
@@ -7,24 +9,24 @@ function Layout() {
                 <nav class="navbar background">
                     <ul class="nav-list">
                         <div class="logo">
-                            <a href="/"><img src=
+                            <Link to="/"><img src=
                                 "https://i.stack.imgur.com/kyKz5.png"
-                            /></a>
+                            /></Link>
 
 
                         </div>
 
                         <li>
-                            <a href="courses">Courses</a>
+                            <Link to="/courses">Courses</Link>
                         </li>
                         <li>
-                            <a href="tutorials">Tutorials</a>
+                            <Link to="/tutorials">Tutorials</Link>
                         </li>
                         <li>
-                            <a href="jobs">Jobs</a>
+                            <Link to="/jobs">Jobs</Link>
                         </li>
                         <li>
-                            <a href="student">Student</a>
+                            <Link to="/student">Student</Link>
                         </li>
                     </ul>
 

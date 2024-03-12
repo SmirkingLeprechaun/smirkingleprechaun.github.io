@@ -3,7 +3,7 @@
 import React from "react";
 import "./App.css";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
@@ -15,27 +15,39 @@ import Students from "./pages/Students";
 
 function App() {
   let component
-  switch (window.location.pathname) {
-    case "/":
-      component = <Home />
-      break
-    case "/courses":
-      component = <Courses />
-      break
-    case "/tutorials":
-      component = <Tutorials />
-      break
-    case "/jobs":
-      component = <Jobs />
-      break
-    case "/student":
-      component = <Students />
-      break
-  }
+  // switch (window.location.pathname) {
+  //   case "/":
+  //     component = <Home />
+  //     break
+  //   case "/courses":
+  //     component = <Courses />
+  //     break
+  //   case "/tutorials":
+  //     component = <Tutorials />
+  //     break
+  //   case "/jobs":
+  //     component = <Jobs />
+  //     break
+  //   case "/student":
+  //     component = <Students />
+  //     break
+  // }
   return (
     <>
       <Layout />
-      {component}
+      <div className="container">
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/courses' element={<Courses />} />
+          <Route path='/tutorials' element={<Tutorials />} />
+          <Route path='/jobs' element={<Jobs />} />
+          <Route path='/student' element={<Students />} />
+        </Routes>
+      </div>
+
+
+
+      {/* {component} */}
     </>
     // <BrowserRouter>
     //   <Routes>

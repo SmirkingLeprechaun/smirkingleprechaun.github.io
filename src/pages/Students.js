@@ -1,6 +1,6 @@
 function Students() {
     return (<h1>
-        Students
+        George's Students
     </h1>)
 };
 export default Students;
