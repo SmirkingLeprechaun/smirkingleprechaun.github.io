@@ -2,34 +2,35 @@ import "../../src/App.css";
 function Home() {
     return (
 
-        <><section class="section">
-            <div class="box-main">
-                <div class="firstHalf">
-                    <h1 class="text-big">
-                        7 Best Tips To Speed Up Your Job
-                        Search in 2022
-                    </h1>
-                    <p class="text-small">
-                        Hunting down a relevant job
-                        requires proper techniques for
-                        showcasing your potential to the
-                        employer. But with the advent of
-                        COVID-19, it has become a bit
-                        challenging and competitive to
-                        reach out for your dream job.
-                        Many individuals have lost their
-                        jobs during these times, and on
-                        the other hand, freshers are
-                        facing difficulties while
-                        applying for a new job. But
-                        there is no need for panic, you
-                        can change your ways and
-                        streamline things in a way that
-                        you get a proper result.
-                    </p>
+        <>
+            <section class="section">
+                <div class="box-main">
+                    <div class="firstHalf">
+                        <h1 class="text-big">
+                            7 Best Tips To Speed Up Your Job
+                            Search in 2022
+                        </h1>
+                        <p class="text-small">
+                            Hunting down a relevant job
+                            requires proper techniques for
+                            showcasing your potential to the
+                            employer. But with the advent of
+                            COVID-19, it has become a bit
+                            challenging and competitive to
+                            reach out for your dream job.
+                            Many individuals have lost their
+                            jobs during these times, and on
+                            the other hand, freshers are
+                            facing difficulties while
+                            applying for a new job. But
+                            there is no need for panic, you
+                            can change your ways and
+                            streamline things in a way that
+                            you get a proper result.
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
             <section class="section">
                 <div class="box-main">
                     <div class="secondHalf">
@@ -48,6 +49,29 @@ function Home() {
                             JavaScript can be used for
                             Client-side developments as well
                             as Server-side developments.
+                            JavaScript is the world most
+                            popular lightweight, interpreted
+                            compiled programming language.
+                            It is also known as scripting
+                            language for web pages. It is
+                            well-known for the development
+                            of web page many non-browser
+                            environments also use it.
+                            JavaScript can be used for
+                            Client-side developments as well
+                            as Server-side developments.
+                            JavaScript is the world most
+                            popular lightweight, interpreted
+                            compiled programming language.
+                            It is also known as scripting
+                            language for web pages. It is
+                            well-known for the development
+                            of web page many non-browser
+                            environments also use it.
+                            JavaScript can be used for
+                            Client-side developments as well
+                            as Server-side developments.
+
                         </p>
                     </div>
                 </div>
@@ -82,6 +106,56 @@ function Home() {
                             and slower than C++. Like C++,
                             Java does static type checking,
                             but Python does not.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="box-main">
+                    <div class="secondHalf">
+                        <h1 class="text-big" id="program">
+                            What is Machine Learning?
+                        </h1>
+                        <p class="text-small">
+                            Machine Learning is the field of
+                            study that gives computers the
+                            capability to learn without
+                            being explicitly programmed. ML
+                            is one of the most exciting
+                            technologies that one would have
+                            ever come across. As it is
+                            evident from the name, it gives
+                            the computer that makes it more
+                            similar to humans: The ability
+                            to learn. Machine learning is
+                            actively being used today,
+                            perhaps in many more places than
+                            one would expect.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="box-main">
+                    <div class="secondHalf">
+                        <h1 class="text-big" id="program">
+                            What is Machine Learning?
+                        </h1>
+                        <p class="text-small">
+                            Machine Learning is the field of
+                            study that gives computers the
+                            capability to learn without
+                            being explicitly programmed. ML
+                            is one of the most exciting
+                            technologies that one would have
+                            ever come across. As it is
+                            evident from the name, it gives
+                            the computer that makes it more
+                            similar to humans: The ability
+                            to learn. Machine learning is
+                            actively being used today,
+                            perhaps in many more places than
+                            one would expect.
                         </p>
                     </div>
                 </div>

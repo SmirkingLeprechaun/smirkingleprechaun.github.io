@@ -4,6 +4,8 @@ import React from "react";
 import "./App.css";
 import ReactDOM from "react-dom/client";
 import { Routes, Route } from "react-router-dom";
+// import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
@@ -36,6 +38,7 @@ function App() {
     <>
       <Layout />
       <div className="container">
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/courses' element={<Courses />} />

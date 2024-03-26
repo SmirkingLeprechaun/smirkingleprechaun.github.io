@@ -8,39 +8,29 @@ function Layout() {
             <div>
                 <nav class="navbar background">
                     <ul class="nav-list">
-                        <div class="logo">
+                        {/* <div class="logo">
                             <Link to="/"><img src=
                                 "https://i.stack.imgur.com/kyKz5.png"
                             /></Link>
 
 
-                        </div>
+                        </div> */}
+                        <li id="item1">
+                            <Link to="/">About Me</Link>
+                        </li>
 
-                        <li>
-                            <Link to="/courses">Courses</Link>
+                        <li id="item2">
+                            <Link to="/courses">Skills</Link>
                         </li>
-                        <li>
-                            <Link to="/tutorials">Tutorials</Link>
+                        <li id="item3">
+                            <Link to="/tutorials">Projects</Link>
                         </li>
-                        <li>
-                            <Link to="/jobs">Jobs</Link>
-                        </li>
-                        <li>
-                            <Link to="/student">Student</Link>
+                        <li id="item4">
+                            <Link to="/jobs">Contact Me</Link>
                         </li>
                     </ul>
 
-                    <div class="rightNav">
 
-                        <input
-                            type="text"
-                            name="search"
-                            id="search"
-                        />
-                        <button class="btn btn-sm">
-                            Search
-                        </button>
-                    </div>
                 </nav>
 
 
